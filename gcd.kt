@@ -13,7 +13,7 @@ fun main(args: Array<String>) {
 
 }
 
-fun gcd(a: Int,b:Int): Int{
+gcd(a: Int,b:Int): Int{
     if (a < b) return gcd(b, a)
     if (b == 0) return a
     return gcd(b, a % b)
