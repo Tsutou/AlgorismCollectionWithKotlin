@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f6740594-dffa-43ec-ba8b-f224523c1b94" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/binarySearch/binarySearch.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/FizzBuzz.kts" afterPath="$PROJECT_DIR$/fizzBuzz/FizzBuzz.kts" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lottery.jar" afterPath="$PROJECT_DIR$/lottery/Lottery.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Lottery.kt" afterPath="$PROJECT_DIR$/lottery/Lottery.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gcd.jar" afterPath="$PROJECT_DIR$/gcd/gcd.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/gcd.kt" afterPath="$PROJECT_DIR$/gcd/gcd.kt" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickSort.jar" afterPath="$PROJECT_DIR$/quickSort/quickSort.jar" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/quickSort.kt" afterPath="$PROJECT_DIR$/quickSort/quickSort.kt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/combinatorics/combinatorics.kt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,18 +38,28 @@
       <file leaf-file-name="quickSort.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quickSort/quickSort.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="525">
               <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="binarySearch.kt" pinned="false" current-in-tab="true">
+      <file leaf-file-name="binarySearch.kt" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/binarySearch/binarySearch.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="424">
-              <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            <state relative-caret-position="159">
+              <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="combinatorics.kt" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/combinatorics/combinatorics.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -66,7 +69,7 @@
         <entry file="file://$PROJECT_DIR$/binarySearch/BinarySearchKt.class">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
-              <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -108,6 +111,7 @@
         <option value="$PROJECT_DIR$/gcd.kt" />
         <option value="$PROJECT_DIR$/quickSort.kt" />
         <option value="$PROJECT_DIR$/binarySearch/binarySearch.kt" />
+        <option value="$PROJECT_DIR$/combinatorics/combinatorics.kt" />
       </list>
     </option>
   </component>
@@ -132,9 +136,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
+      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="ProjectPane" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -156,14 +161,13 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="binarySearch">
+            <PATH_ELEMENT USER_OBJECT="combinatorics">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -518,6 +522,38 @@
     <entry file="file://$PROJECT_DIR$/gcd/gcd.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quickSort/quickSort.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/binarySearch/binarySearch.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1035">
+          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lottery/Lottery.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gcd/gcd.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
@@ -555,14 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fizzBuzz/FizzBuzz.kts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/quiqSort.kt" />
     <entry file="file://$PROJECT_DIR$/lottery/Lottery.kt">
       <provider selected="true" editor-type-id="text-editor">
@@ -582,7 +610,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/quickSort/quickSort.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="525">
           <caret line="35" column="0" lean-forward="false" selection-start-line="35" selection-start-column="0" selection-end-line="37" selection-end-column="28" />
           <folding />
         </state>
@@ -591,15 +619,31 @@
     <entry file="file://$PROJECT_DIR$/binarySearch/BinarySearchKt.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fizzBuzz/FizzBuzz.kts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/binarySearch/binarySearch.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="424">
-          <caret line="69" column="29" lean-forward="true" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        <state relative-caret-position="159">
+          <caret line="55" column="31" lean-forward="true" selection-start-line="55" selection-start-column="31" selection-end-line="55" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/combinatorics/combinatorics.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="9" column="16" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="16" />
           <folding />
         </state>
       </provider>
